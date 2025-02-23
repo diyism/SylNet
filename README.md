@@ -1,3 +1,10 @@
+    $ conda create -n env_py36 python=3.6
+    $ conda activate env_py36
+    $ pip install tensorflow==1.10.1 librosa==0.7.2 numba==0.48.0 resampy==0.2.2 matplotlib==3.3.4
+    $ python run_SylNet.py ../4.wav results.txt
+    $ cat results.txt
+    12
+
 # SylNet
 
 INTRODUCTION
